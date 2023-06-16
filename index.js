@@ -4,7 +4,7 @@ console.log(a);
 
 //using let keyword
 let b = '456';
-console.log(b);
+console.log(b);  
 
 //using const keyword
 const c = 23;
