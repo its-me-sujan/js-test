@@ -10,7 +10,7 @@ console.log(b);
 const c = 23; 
 console.log(c);  
 // alert('hello world');
-
+ 
 // const age = prompt('how old are you?');
 // console.log(age);
 
