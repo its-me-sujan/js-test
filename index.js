@@ -43,5 +43,11 @@ if (x === 1){
 }
 
 let result = x === 1 ? "x is 1" : "x is not 1";
-result = x === 1? "x is 1" : x === 2 ? "x is 2" : "x is not 1 or 2";
+// result = x === 1? "x is 1" : x === 2 ? "x is 2" : "x is not 1 or 2";
 console.log(result);
+
+//for loops
+
+for(let i = 0; i < 10; i++){
+    console.log(i);
+}
