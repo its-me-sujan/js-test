@@ -8,7 +8,7 @@ console.log(b);
 
 //using const keyword
 const c = 23; 
-console.log(c); 
+console.log(c);  
 // alert('hello world');
 
 // const age = prompt('how old are you?');
