@@ -23,7 +23,7 @@ let y = 2;
 //using if statement
 if (x == 1){
     console.log('x is 1');
-}
+} 
 //using && operator
 if (x === 1 && y === 2){
     console.log("&& operator tested");
