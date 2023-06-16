@@ -18,3 +18,20 @@ console.log(c);
 // console.log(isStd);
 
 
+let x = 1;
+let y = 2;
+//using if statement
+if (x == 1){
+    console.log('x is 1');
+}
+//using && operator
+if (x === 1 && y === 2){
+    console.log("&& operator tested");
+}
+//using || operator
+if((x = 1) || (y = 3)){
+    console.log("|| operator tested");
+}
+if(x != 3){
+    console.log("! operator tested");
+}
