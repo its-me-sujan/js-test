@@ -13,7 +13,7 @@ console.log(c);
  
 // const age = prompt('how old are you?');
 // console.log(age);
-
+   
 // const isStd = confirm('Are you an Student?');
 // console.log(isStd);
 
