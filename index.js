@@ -7,7 +7,7 @@ let b = '456';
 console.log(b);  
 
 //using const keyword
-const c = 23;
+const c = 23; 
 console.log(c); 
 // alert('hello world');
 
