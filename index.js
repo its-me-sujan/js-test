@@ -35,3 +35,13 @@ if((x = 1) || (y = 3)){
 if(x != 3){
     console.log("! operator tested");
 }
+//using ternary operator
+if (x === 1){
+    console.log("x is 1");
+}else{
+    console.log("x is not 1");
+}
+
+let result = x === 1 ? "x is 1" : "x is not 1";
+result = x === 1? "x is 1" : x === 2 ? "x is 2" : "x is not 1 or 2";
+console.log(result);
