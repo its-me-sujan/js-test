@@ -48,6 +48,20 @@ console.log(result);
 
 //for loops
 
-for(let i = 0; i < 10; i++){
-    console.log(i);
-}
+// for(let i = 0; i < 10; i++){
+//     console.log(i);
+// }
+
+//function
+
+// function add(a,b){
+//     console.log(a + b);
+// }
+
+// add(2,3);
+
+const add = (a,b) => {
+    console.log(a+b);
+};
+
+add(3,4);
