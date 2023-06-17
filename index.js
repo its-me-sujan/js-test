@@ -109,7 +109,7 @@
 // let b = prompt("Enter second number : ");
 // mulordiv(a,b);
 
-task5
+// task 5
 // const cel_to_fah = (a) => {
 //     console.log(`${a}C is ${(9*a)/5+32}F`);
 // }
@@ -121,3 +121,16 @@ task5
 
 // cel_to_fah(cel);
 // fah_to_cel(fah);
+
+// task 6
+// const countVowel = (str) => {
+//     let count = 0;
+//     for (let letter of str.toLowerCase()) {
+//         if(["a","e","i","o","u"].includes(letter)){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+// }
+// let string = prompt("Enter a string: ");
+// countVowel(string);
