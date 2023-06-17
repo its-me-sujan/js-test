@@ -90,3 +90,7 @@
 // }
 // let num = prompt("Enter a number : ");
 // isMul(num);
+
+// task 3
+// const date = Date();
+// console.log(date)
