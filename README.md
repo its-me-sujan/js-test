@@ -1,3 +1,3 @@
-# js-test
-Repo created during learning MERN stack
-By sujan shrestha
+Repo created during MERN stack learning
+
+-By sujan shrestha
