@@ -11,7 +11,7 @@
 // console.log(c);  
 // // alert('hello world');
  
-// // const age = prompt('how old are you?');
+// const age = prompt('how old are you?');
 // // console.log(age);
    
 // // const isStd = confirm('Are you an Student?');
@@ -67,6 +67,18 @@
 // add(3,4);  
 
 //task 0
-console.log("Hello world");
-const PI = 3.14;
-console.log(PI);
+// console.log("Hello world");
+// const PI = 3.14;
+// console.log(PI);
+
+//task 1
+// const add = (a,b) => {
+//     if(a === b){
+//         console.log(3*(a+b));
+//     }else{
+//         console.log(a+b);
+//     }
+// }
+// let a = prompt("Enter first integer: ");
+// let b = prompt("Enter second number: ");
+// add(a,b);
