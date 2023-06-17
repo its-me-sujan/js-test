@@ -82,3 +82,11 @@
 // let a = prompt("Enter first integer: ");
 // let b = prompt("Enter second number: ");
 // add(a,b);
+
+// task 2
+// const isMul = (a) => {
+//     let result = a < 0 ? "Negative number": a%3==0 || a%7==0 ? "Multiple of 3 or 7" : "Not multiple of 3 or 7";
+//     console.log(result);  
+// }
+// let num = prompt("Enter a number : ");
+// isMul(num);
