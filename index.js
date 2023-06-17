@@ -94,3 +94,17 @@
 // task 3
 // const date = Date();
 // console.log(date)
+
+// task 4
+// const mulordiv = (a,b) => {
+//     let choice = prompt("Enter '*' for multiplication, '/' for division : ");
+//     if(choice == '*'){
+//         console.log(`multiplication of ${a} and ${b} is ${a*b}`);
+//     }
+//     if(choice == '/'){
+//         console.log(`division of ${a} and ${b} is ${a/b}`);
+//     }
+// } 
+// let a = prompt("Enter first number : ");
+// let b = prompt("Enter second number : ");
+// mulordiv(a,b);
