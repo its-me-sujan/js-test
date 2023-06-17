@@ -1,5 +1,3 @@
 # js-test
-first day of mern stack learning
-
-day 2
+Repo created during learning MERN stack
 By sujan shrestha
