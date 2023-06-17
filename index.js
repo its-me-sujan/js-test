@@ -108,3 +108,16 @@
 // let a = prompt("Enter first number : ");
 // let b = prompt("Enter second number : ");
 // mulordiv(a,b);
+
+task5
+// const cel_to_fah = (a) => {
+//     console.log(`${a}C is ${(9*a)/5+32}F`);
+// }
+// const fah_to_cel = (a) => {
+//     console.log(`${a}F is ${((a-32)/9)*5}C`);
+// }
+// let cel = prompt("Enter temperature in celcius: ");
+// let fah = prompt("Enter temperature in fahrenheit: ");
+
+// cel_to_fah(cel);
+// fah_to_cel(fah);
