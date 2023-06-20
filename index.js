@@ -155,3 +155,35 @@
 // creating empty array
 // const arr = [];
 // const arr = new Array();
+// const cars = ["saab","volvo",34,{name:"Alto",company:"Suzuki"}];
+//accessing first item
+// let firstCar = cars[0];
+//accessing last item
+// let las = cars[cars.length - 1];
+// console.log(las);
+// console.log(cars.sort());
+// console.log(cars.push("new item"));
+// console.log(cars.pop());
+
+
+// const myFunction = (data) => {
+//     console.log(data);
+// }
+
+// cars.forEach(myFunction); //ES5
+// cars.map(d=>console.log(d)); //ES6
+
+//destructuring objects
+
+//user model
+const user = {
+    firstName:"sujan",
+    lastName:"shrestha",
+    email:"sujan@sujan.com",
+    password:"12345",
+    phone:"983984",
+}
+//user list
+
+const {password, ...rest} = user;
+console.log({rest});
