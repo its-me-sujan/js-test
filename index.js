@@ -134,3 +134,11 @@
 // }
 // let string = prompt("Enter a string: ");
 // countVowel(string);
+const person = {
+    firstName:"john",
+    lastName:"doe",
+    fullName:()=>{
+        return this.firstName+" "+this.lastName;
+    }
+};
+
