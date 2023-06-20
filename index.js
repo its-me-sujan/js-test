@@ -176,14 +176,43 @@
 //destructuring objects
 
 //user model
-const user = {
-    firstName:"sujan",
-    lastName:"shrestha",
-    email:"sujan@sujan.com",
-    password:"12345",
-    phone:"983984",
-}
+// const user = {
+//     firstName:"sujan",
+//     lastName:"shrestha",
+//     email:"sujan@sujan.com",
+//     password:"12345",
+//     phone:"983984",
+// }
 //user list
 
-const {password, ...rest} = user;
-console.log({rest});
+// const {password, ...rest} = user;
+// console.log({rest});
+// console.log({rest});
+
+
+//destructuring arrays
+
+// const user = ["sujan","shrestha","989898"]
+// const [first, ...rest] = user;
+// console.log({rest});
+
+
+// const arra = ["sab", "volvo", "bmv"];
+// const[first, ...other] = arra;
+// console.log(other.toString());
+
+// const myFunction = (data) => {
+//     return data.toUpperCase();
+// }
+
+// const newUpperCase = arra.map(myFunction).toString();
+// console.log({newUpperCase});
+
+//default 
+const myName = (salutation, nam ) => {
+    if (salutation === ""){
+        salutation = salutation || "mr";
+    }
+    console.log(`${salutation} ${nam}`);
+}
+ myName("","john");
