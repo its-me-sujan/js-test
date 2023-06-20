@@ -134,11 +134,24 @@
 // }
 // let string = prompt("Enter a string: ");
 // countVowel(string);
-const person = {
-    firstName:"john",
-    lastName:"doe",
-    fullName:()=>{
-        return this.firstName+" "+this.lastName;
-    }
-};
 
+//object
+// const person = {
+//     firstName:"john",
+//     lastName:"doe",
+//     fullName:() => {
+//         return `${person.firstName} ${person.lastName}`;
+//         // return person.firstName+person.lastName;
+//     },
+// };
+
+//two ways of accessing object properties
+// const fn = person.firstName;
+// const fN = person['firstName'];
+// const nam = person.fullName();
+// console.log(nam)
+
+//array
+// creating empty array
+// const arr = [];
+// const arr = new Array();
