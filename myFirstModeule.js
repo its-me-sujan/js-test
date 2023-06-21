@@ -1,0 +1,3 @@
+const myDateTime = () => {
+    return Date();
+}
