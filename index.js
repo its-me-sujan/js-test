@@ -209,10 +209,10 @@
 // console.log({newUpperCase});
 
 //default 
-const myName = (salutation, nam ) => {
-    if (salutation === ""){
-        salutation = salutation || "mr";
-    }
-    console.log(`${salutation} ${nam}`);
-}
- myName("","john");
+// const myName = (salutation, nam ) => {
+//     if (salutation === ""){
+//         salutation = salutation || "mr";
+//     }
+//     console.log(`${salutation} ${nam}`);
+// }
+//  myName("","john");
