@@ -1,10 +1,16 @@
-const http = require('http');
-const currDateTime = require('./myFirstModeule');
-const uc = require('upper-case');
+// const http = require('http');
+// const currDateTime = require('./myFirstModeule');
+// const uc = require('upper-case');
+// const poort = 8080;
+// http.createServer((req,res) => {
+//     // res.writeHead(200,{'Content-Type':'text/html'});
+//     const message = uc.upperCase('hello world');
+//     res.end(message + currDateTime.myDateTime());
+// }).listen(poort);
+// console.log(`app running ${poort}`)
 
-http.createServer((req,res) => {
-    // res.writeHead(200,{'Content-Type':'text/html'});
-    const message = uc.upperCase('hello world');
-    res.end(message + currDateTime.myDateTime());
-}).listen(8090);
-
+const fs = require('fs');
+const rs = fs.createReadStream('./demofile.txt');
+rs.on('open', () =>{
+    console.log('The file is open');;
+})
