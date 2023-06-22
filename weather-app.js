@@ -15,7 +15,7 @@ async function getWeather() {
   } catch (error) {
     console.error(error);
   }
-}
+}    
 
 //call the async function to fetch and display the wather data
 getWeather();
