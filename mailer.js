@@ -39,4 +39,4 @@ const mailer = async(mailOptions, transporter) => {
 };
 
 mailer(mailOptions, transporter);
-   
+       
