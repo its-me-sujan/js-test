@@ -38,5 +38,5 @@ const mailer = async(mailOptions, transporter) => {
     console.log({info: info.response});
 };
 
-mailer(mailOptions, transporter);
-       
+mailer(mailOptions, transporter); 
+          
